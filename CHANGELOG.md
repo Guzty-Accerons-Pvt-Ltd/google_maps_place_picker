@@ -1,3 +1,7 @@
+## [2.1.0-nullsafety.3] - 08/Sep/2021
+
+- Merge PR #141, #142, #147
+
 ## [2.0.0-nullsafety.3] - 18/Mar/2021
 
 - Updated google_maps_webservice to 0.0.20-nullsafety.2
