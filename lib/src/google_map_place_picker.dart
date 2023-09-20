@@ -330,8 +330,13 @@ class GoogleMapPlacePicker extends StatelessWidget {
       child: Column(
         children: <Widget>[
           Text(
+            result.name!,
+            style: TextStyle(fontSize: 16),
+            textAlign: TextAlign.center,
+          ),
+          Text(
             result.formattedAddress!,
-            style: TextStyle(fontSize: 18),
+            style: TextStyle(fontSize: 14),
             textAlign: TextAlign.center,
           ),
           SizedBox(height: 10),
